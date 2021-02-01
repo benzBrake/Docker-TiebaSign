@@ -3,13 +3,12 @@ on:
   push:
     branches:
       - 'master'
-      - 'php'
     tags:
       - v*
     paths-ignore:
       - "README.md"
 env:
-  IMAGE_NAME: TiebaSign
+  IMAGE_NAME: tiebasign
 jobs:
   buildx:
     runs-on: ubuntu-latest

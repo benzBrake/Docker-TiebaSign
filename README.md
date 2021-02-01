@@ -10,5 +10,5 @@ docker run -d \
   -env BDUSS=百度COOKIE之BDUSS
   -env BDID=百度ID
   -env AT=每天几点运行（不加此参数每天凌晨两点运行）
-  benzbrake/TiebaSign
+  benzbrake/tiebasign
 ```
