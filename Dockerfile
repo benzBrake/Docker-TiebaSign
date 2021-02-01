@@ -10,4 +10,4 @@ RUN \
 	pip3 install requests schedule &&\
 	chmod +x /tiebaSign.py
 
-CMD /usr/bin/python3 /tiebaSign.py && top -b
+CMD /usr/bin/python3 /tiebaSign.py
