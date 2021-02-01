@@ -4,7 +4,7 @@
 
 ## 食用方式
 
-```shell
+```
 docker run -d \
   --restart=always \
   -env BDUSS=百度COOKIE之BDUSS
