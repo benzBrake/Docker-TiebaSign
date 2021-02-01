@@ -9,7 +9,6 @@ import time
 from urllib import parse
 import schedule
 
-
 class tieba:
     bduss = os.getenv('BDUSS', '')
     bdid = os.getenv('BDID', '')
